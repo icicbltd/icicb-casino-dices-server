@@ -39,5 +39,5 @@ app.get("/*", function (req, res) {
     });
 });
 
-const port = process.env.SERVER_PORT || 5003;
+const port = process.env.SERVER_PORT || 3306;
 app.listen(port, () => console.log(`Running on port ${port}`));
